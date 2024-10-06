@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+    
+
+</head>
+<body>
+    <h1>LOGIN PAGE</h1>
+    <form method="get" id="loginForm" >
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"  name="email" ><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="number" id="phone" name="phone"><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="gender" name="gender"><br>
+
+        <label>Address</label><br>
+        <input type="text" id="address" name="address" placeholder="Enter your address"><br>
+       
+        <input type="text" id="city" name="city" placeholder="Enter your city"><br>
+        
+        
+        <input type="text" id="state" name="state" placeholder="Enter your state or province"><br>
+        
+        <input type="text" id="zip" name="zip" placeholder="Enter your ZIP code"><br>
+       
+        <input type="text" id="country" name="country" placeholder="Enter your country"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <style>
+        /* Style for error messages */
+        label.error {
+            color: red; /* Change text color to red */
+            font-weight: bold; /* Make it bold for better visibility */
+        }
+    </style>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
